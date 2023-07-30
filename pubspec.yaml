@@ -11,9 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^1.0.1
-  google_fonts: ^3.0.1
-  cupertino_icons: ^1.0.2
+  audioplayers: ^5.0.0
+  google_fonts:
+  cupertino_icons:
 
 dev_dependencies:
   flutter_test:
@@ -23,10 +23,15 @@ dev_dependencies:
   flutter_app_name:
 
 flutter_app_name:
-  "name": "LaunchPad"
+  "name": "Launch Pad"
+
+
+
 
 
 flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/
